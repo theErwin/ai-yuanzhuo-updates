@@ -1,13 +1,13 @@
 {
-    "version":  "2.3.3",
-    "publishedAt":  "2026-11-28 00:36",
-    "notes":  "# AI 圆桌 v2.3.3 更新公告\n\n- 历史记录在逐条清理云端时保持暗色显示。\n- ChatGPT 恢复网页回读兜底，DeepSeek 找回单轮首句并排除思考状态文字。扩展版本为 1.4.6，协议仍为 v24。\n- 侧栏浮层只在导航区出现，沿用缩略栏的滚动位置。读取网页内容时默认勾选所有在线席位。",
-    "sha256":  "D61F98D1D76BF61E8BF36189232ED3B021AACB969443E8E875BA3F9AE812B78A",
+    "version":  "2.3.4",
+    "publishedAt":  "2026-11-28 01:02",
+    "notes":  "# AI 圆桌 v2.3.4 更新公告\n\n- 修复 ChatGPT 完整对话误判为新对话并漏读的问题：读取时优先锁定已打开的具体对话标签页、新增同源会话 API 完整回读并加固 DOM 兜底边界。\n- 修复 DeepSeek 回读将“Thought for ...”思考状态误认作用户提问并漏掉首条问题的问题：接入 DeepSeek 历史消息 API（过滤思考片段）并修正 DOM 祖先爬升逻辑。\n- 移除侧栏收起时的悬停浮层，保留点击 `◀` / `▶` 一键切换，并在展开/收起时按比例同步模型列表滚动位置。\n- 优化「📥 读取AI内容」交互：当前模式已有活跃网页 AI 席位时直接后台静默回读并更新页面内容；空白单聊或无活跃网页席位时默认勾选全部在线席位弹出确认框。\n- 浏览器扩展协议升级至 v25（manifest 1.4.5）。",
+    "sha256":  "E20946C60381E2692C3927F5D43C6BA69AE3B359E3134A33F8BD835438150645",
     "downloadUrls":  [
-                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.3/AIYuanZhuo-update.zip"
+                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.4/AIYuanZhuo-update.zip"
                      ],
-    "fullSha256":  "E9CA81DB89000FF0AB41253B2A8F96A16DC929EE717BB47E5F60C8BEED032B9C",
+    "fullSha256":  "CD02179EDD0C265550350D84C8526D4AE512E68B442EA4EE90AAE50AD6050771",
     "fullDownloadUrls":  [
-                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.3/AIYuanZhuo-full.zip"
+                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.4/AIYuanZhuo-full.zip"
                          ]
 }
