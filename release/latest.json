@@ -1,13 +1,13 @@
 {
-    "version":  "2.3.1",
-    "publishedAt":  "2026-11-27 23:47",
-    "notes":  "# AI 圆桌 v2.3.1 更新公告\n\n- 多窗支持局部拆分、卡片互换和拖动分隔线，布局随会话设置保存。\n- 修复收起侧栏的展开按钮，以及 ChatGPT、DeepSeek、Gemini 的网页历史记录回读。\n- 浏览器扩展协议升级到 v23。",
-    "sha256":  "BB17E47227B75028514851B9FA8109303950311917719C1CD1592EC873CBE3C8",
+    "version":  "2.3.2",
+    "publishedAt":  "2026-11-28 00:18",
+    "notes":  "# AI 圆桌 v2.3.2 更新公告\n\n- 单聊增加空欢迎页和自定义欢迎语，支持拖入 AI 并按落点拆分。\n- 修复侧栏浮层重复图标和切换闪烁，多窗分隔线仅在交互时显示。\n- 清空历史时可逐个核对关联网页会话，完成后报告未找到和未确认的条目。\n- 已打开的网页席位在回读后原位刷新，并改进 ChatGPT 与 DeepSeek 首轮发言识别。浏览器扩展协议升级至 v24。",
+    "sha256":  "865E4406131D617944D1D4631B0FF930F01F27D2CC5FBF5F3D0498280851F423",
     "downloadUrls":  [
-                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.1/AIYuanZhuo-update.zip"
+                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.2/AIYuanZhuo-update.zip"
                      ],
-    "fullSha256":  "F6682565F8E57FF9E40B1D4F651BAB7B8EEC2EEA5D58CDF048163A85128EBE48",
+    "fullSha256":  "CB078EC350E65B0DA17C899CE2B929E375B793ECE86848F925FDD77B3FAFD724",
     "fullDownloadUrls":  [
-                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.1/AIYuanZhuo-full.zip"
+                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.2/AIYuanZhuo-full.zip"
                          ]
 }
