@@ -1,13 +1,13 @@
 {
-    "version":  "2.3.0",
-    "publishedAt":  "2026-11-27 23:02",
-    "notes":  "# AI 圆桌 v2.3.0 更新公告\n\n- **按 AI 席位完全隔离单聊上下文，并支持历史记录多维筛选**：\n  - 为单聊引入独立的席位会话映射 `ActiveBySeat`：切到 ChatGPT 仅显示 ChatGPT 对话，切到 DeepSeek 仅显示 DeepSeek 对话，彻底告别不同 AI 单聊记录与草稿互相串线。\n  - 「会话记录」窗口顶部新增快捷筛选栏（`全部` / `当前 AI` / `单聊` / `圆桌 · 辩论`），支持一键筛选查看指定 AI 的过往对话。\n- **网页读取对话拆分为标准一问一答气泡**：\n  - 从网页端读取到的多轮对话不再挤成一整块大文本，自动按原有时间顺序拆分为标准的右置用户提问气泡与左置 AI 回复气泡；仅在每组读取的最后一条 AI 回复标题栏提供轻量「网页读取」标记与「↻ 重新读取」按钮；合并进圆桌时自动分组打包喂给同桌 AI 交叉审计。\n- **单聊多 AI 并行分屏卡片网格（支持拖拽换位/改排版/群发/独立私聊）**：\n  - 在「单聊」下支持从左侧拖拽任意多个 AI 到右侧聊天区（或 `Ctrl + 点击` / 顶部「⊞ 多窗分屏」 / 右键菜单），自动按 1×2、2+1、2×2、3+2 等比例切分满屏卡片网格，并支持「自动排版 / 并排多列 / 上下多行 / 2 列 / 3 列」。\n  - 底部主输入框默认同步并发群发给所有勾选「✓ 同步」的卡片，也可在每张卡片底部小输入框单独向某个 AI 发一句；按住卡片标题栏拖到另一张卡片中心可互换位置，拖到左/右边缘或上/下边缘可直接切换为并排多列或上下多行。\n- **左侧边栏支持一键收起为极简导航条 + 鼠标悬停浮出**：\n  - 点击左上角「◀ / ▶」可将 248px 侧边栏收起至 68px 紧凑通道并持久化记住，鼠标移入窄条时自动平滑浮出完整 248px 侧边栏而不挤压右侧多窗或消息内容，移开后延时收起（打开右键菜单或拖拽期间保持不关闭），点击固定即可还原常驻展开。",
-    "sha256":  "DB48670666060F71935BE99BBA83741E14DC178B962A4041373CF7AD0BCAD108",
+    "version":  "2.3.1",
+    "publishedAt":  "2026-11-27 23:47",
+    "notes":  "# AI 圆桌 v2.3.1 更新公告\n\n- 多窗支持局部拆分、卡片互换和拖动分隔线，布局随会话设置保存。\n- 修复收起侧栏的展开按钮，以及 ChatGPT、DeepSeek、Gemini 的网页历史记录回读。\n- 浏览器扩展协议升级到 v23。",
+    "sha256":  "BB17E47227B75028514851B9FA8109303950311917719C1CD1592EC873CBE3C8",
     "downloadUrls":  [
-                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.0/AIYuanZhuo-update.zip"
+                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.1/AIYuanZhuo-update.zip"
                      ],
-    "fullSha256":  "0850017750CF6968DD14F2C9B668DB0B8C4B4E7E225DC1B44DD576EFA34FC6D6",
+    "fullSha256":  "F6682565F8E57FF9E40B1D4F651BAB7B8EEC2EEA5D58CDF048163A85128EBE48",
     "fullDownloadUrls":  [
-                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.0/AIYuanZhuo-full.zip"
+                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.1/AIYuanZhuo-full.zip"
                          ]
 }
