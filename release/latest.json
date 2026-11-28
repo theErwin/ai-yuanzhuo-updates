@@ -1,13 +1,13 @@
 {
-    "version":  "2.4.1",
-    "publishedAt":  "2026-11-28 15:05",
-    "notes":  "# AI 圆桌 v2.4.1 更新公告\n\n- **单窗单聊新增左侧「网页历史」实时列表**：单聊（网页 AI、非分屏）左侧可展开 210px 面板，实时列出该 AI 网页侧边栏中的历史会话（ChatGPT / DeepSeek 优先走同源 API，其他站点走 DOM 兜底，最多 35 条，约 25 秒自动刷新，也可点「↻」）。点击任一条目即无刷新切换网页端对话并自动回读完整聊天记录，复用/新建绑定该链接的单聊，聊天区实时显示完整气泡并高亮当前条目；面板顶部提供「＋新对话」与「‹」收起，收起后聊天区左上角出现「☰ 网页历史」可重新展开。\n- **侧边栏与聊天区之间新增收缩/展开拉手**：中间边框处新增悬浮小按钮（平时半透明、悬停高亮），与左上角 ◀/▶ 按钮同步切换并随状态显示 ‹ / ›。\n- **新建对话优先 SPA 无刷新**：补全 ChatGPT / DeepSeek / Gemini / Claude / Grok / 豆包 收起态与新版「新对话」选择器，ChatGPT（Ctrl+Shift+O）、Claude（Ctrl+Shift+K）增加快捷键兜底；\reset_chat 依次尝试「点击可见新对话按钮（含文本匹配）→ 快捷键」，成功即不再整页刷新，仅在确实失败时才兜底跳转首页，并在诊断追踪中区分「SPA 无刷新新建」与「兜底刷新跳转」。\n- 浏览器扩展协议升级至 v26（manifest 1.4.6），新增 list_threads 指令；升级后请在扩展管理页点一下扩展卡片的“↻”刷新。",
-    "sha256":  "76983BD0092DCF3AFAAB95ADD6843732EF580DC0194B05F77A4AC68C2F75D629",
+    "version":  "2.4.2",
+    "publishedAt":  "2026-11-28 15:30",
+    "notes":  "# AI 圆桌 v2.4.2 更新公告\n\n- 修复 Gemini 网页历史重复条目与无关导航项。\n- 已缓存的网页历史即时显示，并在后台同步最新内容。\n- 扩展协议升级至 v27，扩展版本为 1.4.7。",
+    "sha256":  "B1E6E829CA3DFE4BC641238D110E363368680C4EE27622620A885FE1A00695FA",
     "downloadUrls":  [
-                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.1/AIYuanZhuo-update.zip"
+                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.2/AIYuanZhuo-update.zip"
                      ],
-    "fullSha256":  "A271AC0EA9564330542F45C7CBE6EBD1EB0C1DF6FE64719D481870E84DC064EF",
+    "fullSha256":  "0B8B683C8E9A9DCF77003A0E0D1B1426ADA0E662579D078D7541E80B6AAC3D69",
     "fullDownloadUrls":  [
-                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.1/AIYuanZhuo-full.zip"
+                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.2/AIYuanZhuo-full.zip"
                          ]
 }
