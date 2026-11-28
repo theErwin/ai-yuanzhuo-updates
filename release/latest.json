@@ -1,13 +1,13 @@
 {
-    "version":  "2.4.0",
-    "publishedAt":  "2026-11-28 14:44",
-    "notes":  "# AI 圆桌 v2.4.0 更新公告\n\n- **一键创建并启动「AI圆桌」专用纯净 Chrome 资料**：在浏览器桥接设置面板及左侧「网页桥接」栏新增「一键创建并打开「AI圆桌」专用浏览器」入口，自动创建名为 `AI圆桌` 的独立纯净 Chrome 个人资料（仅加载本程序扩展、屏蔽日常扩展干扰以显著节省内存），并自动打开内置 AI 官网方便逐一登录。\n- **优化侧边栏 AI 席位点击与双击交互**：单聊模式下再次单击已选中的 AI 即可取消选中回到空迎宾页（分屏模式下点击已入列 AI 则移出分屏）；无论是否已选中，快速双击任意 AI 即可直接打开或将对应的浏览器标签页/桌面客户端窗口弹到前台。\n- **单聊一键「🪑 导入圆桌」**：单聊（含多窗分屏）顶部新增「🪑 导入圆桌」按钮，可一键将当前页面的所有 AI 自动带入圆桌入座，同时把各 AI 已有的单聊对话记录与云端会话绑定一并带入圆桌作为后续讨论上下文（尚无记录时也支持直接带入入座）。",
-    "sha256":  "025643F5F67F3DD711280CD342E8027B34591D32E7E58A514027E9048568EE95",
+    "version":  "2.4.1",
+    "publishedAt":  "2026-11-28 15:05",
+    "notes":  "# AI 圆桌 v2.4.1 更新公告\n\n- **单窗单聊新增左侧「网页历史」实时列表**：单聊（网页 AI、非分屏）左侧可展开 210px 面板，实时列出该 AI 网页侧边栏中的历史会话（ChatGPT / DeepSeek 优先走同源 API，其他站点走 DOM 兜底，最多 35 条，约 25 秒自动刷新，也可点「↻」）。点击任一条目即无刷新切换网页端对话并自动回读完整聊天记录，复用/新建绑定该链接的单聊，聊天区实时显示完整气泡并高亮当前条目；面板顶部提供「＋新对话」与「‹」收起，收起后聊天区左上角出现「☰ 网页历史」可重新展开。\n- **侧边栏与聊天区之间新增收缩/展开拉手**：中间边框处新增悬浮小按钮（平时半透明、悬停高亮），与左上角 ◀/▶ 按钮同步切换并随状态显示 ‹ / ›。\n- **新建对话优先 SPA 无刷新**：补全 ChatGPT / DeepSeek / Gemini / Claude / Grok / 豆包 收起态与新版「新对话」选择器，ChatGPT（Ctrl+Shift+O）、Claude（Ctrl+Shift+K）增加快捷键兜底；\reset_chat 依次尝试「点击可见新对话按钮（含文本匹配）→ 快捷键」，成功即不再整页刷新，仅在确实失败时才兜底跳转首页，并在诊断追踪中区分「SPA 无刷新新建」与「兜底刷新跳转」。\n- 浏览器扩展协议升级至 v26（manifest 1.4.6），新增 list_threads 指令；升级后请在扩展管理页点一下扩展卡片的“↻”刷新。",
+    "sha256":  "76983BD0092DCF3AFAAB95ADD6843732EF580DC0194B05F77A4AC68C2F75D629",
     "downloadUrls":  [
-                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.0/AIYuanZhuo-update.zip"
+                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.1/AIYuanZhuo-update.zip"
                      ],
-    "fullSha256":  "769998EF2361296930CEB856D0711B8ED68DA0E246BC99D1F4D25A6A121BBA4A",
+    "fullSha256":  "A271AC0EA9564330542F45C7CBE6EBD1EB0C1DF6FE64719D481870E84DC064EF",
     "fullDownloadUrls":  [
-                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.0/AIYuanZhuo-full.zip"
+                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.1/AIYuanZhuo-full.zip"
                          ]
 }
