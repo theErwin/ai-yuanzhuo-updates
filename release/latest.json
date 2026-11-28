@@ -1,13 +1,13 @@
 {
-    "version":  "2.4.2",
-    "publishedAt":  "2026-11-28 15:30",
-    "notes":  "# AI 圆桌 v2.4.2 更新公告\n\n- 修复 Gemini 网页历史重复条目与无关导航项。\n- 已缓存的网页历史即时显示，并在后台同步最新内容。\n- 扩展协议升级至 v27，扩展版本为 1.4.7。",
-    "sha256":  "B1E6E829CA3DFE4BC641238D110E363368680C4EE27622620A885FE1A00695FA",
+    "version":  "2.4.3",
+    "publishedAt":  "2026-11-28 15:40",
+    "notes":  "# AI 圆桌 v2.4.3 更新公告\n\n- 分屏边框使用轻量预览，松手后更新窗口比例。\n- 优化分屏卡片复用和拖拽遮罩，长对话默认显示最近 20 条，可按需展开。\n- 会话加密和磁盘写入移至后台串行执行。",
+    "sha256":  "19B2C592CF303B115B1CE7C9EB8AF7ACD1A5639E77D920A73777F89A1A9DAFC3",
     "downloadUrls":  [
-                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.2/AIYuanZhuo-update.zip"
+                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.3/AIYuanZhuo-update.zip"
                      ],
-    "fullSha256":  "0B8B683C8E9A9DCF77003A0E0D1B1426ADA0E662579D078D7541E80B6AAC3D69",
+    "fullSha256":  "D7D4B1C77C39AFCFDFD38C9F941C8C31D831612A5C9A53B65A48B13A6DAE6D99",
     "fullDownloadUrls":  [
-                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.2/AIYuanZhuo-full.zip"
+                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.3/AIYuanZhuo-full.zip"
                          ]
 }
