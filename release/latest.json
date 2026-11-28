@@ -1,13 +1,13 @@
 {
-    "version":  "2.4.5",
-    "publishedAt":  "2026-11-28 16:40",
-    "notes":  "# AI 圆桌 v2.4.5 更新公告\n\n- 修复多窗重新排版时卡片可能叠在一起，导致一侧显示空白的问题。",
-    "sha256":  "0B67FE62B5EDD0296D27D0704FA7384CDE6524EE1067147A8C4CCEC26147E101",
+    "version":  "2.4.6",
+    "publishedAt":  "2026-11-28 22:02",
+    "notes":  "# AI 圆桌 v2.4.6 更新公告\n\n- 会话记录支持重命名标题，可使用按钮、右键菜单或 F2 操作。\n- 网页回复等待期间支持手动添加回复，方便在自动回传遇到问题时继续讨论。\n- 改进 ChatGPT 圆桌长提示词与网页回复读取，增加实时字数探测及排障信息。\n- 浏览器扩展升级至 1.5.2，桥接协议升级至 v39。",
+    "sha256":  "451A0EAE07AE75D3AD5119C978EF39678C7FDEC06816520AFDA4BBDB9756B430",
     "downloadUrls":  [
-                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.5/AIYuanZhuo-update.zip"
+                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.6/AIYuanZhuo-update.zip"
                      ],
-    "fullSha256":  "6779E753EAEC8B72E1A17FD905EE8FDD97592FEA77F65209C4B58CDCA872369B",
+    "fullSha256":  "BEC56D81972D158956F4E25C8B9A5C7B3ED6A82E501D517A406604785C7B724E",
     "fullDownloadUrls":  [
-                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.5/AIYuanZhuo-full.zip"
+                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.6/AIYuanZhuo-full.zip"
                          ]
 }
