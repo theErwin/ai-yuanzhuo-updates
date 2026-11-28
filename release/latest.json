@@ -1,13 +1,13 @@
 {
-    "version":  "2.3.4",
-    "publishedAt":  "2026-11-28 01:02",
-    "notes":  "# AI 圆桌 v2.3.4 更新公告\n\n- 修复 ChatGPT 完整对话误判为新对话并漏读的问题：读取时优先锁定已打开的具体对话标签页、新增同源会话 API 完整回读并加固 DOM 兜底边界。\n- 修复 DeepSeek 回读将“Thought for ...”思考状态误认作用户提问并漏掉首条问题的问题：接入 DeepSeek 历史消息 API（过滤思考片段）并修正 DOM 祖先爬升逻辑。\n- 移除侧栏收起时的悬停浮层，保留点击 `◀` / `▶` 一键切换，并在展开/收起时按比例同步模型列表滚动位置。\n- 优化「📥 读取AI内容」交互：当前模式已有活跃网页 AI 席位时直接后台静默回读并更新页面内容；空白单聊或无活跃网页席位时默认勾选全部在线席位弹出确认框。\n- 浏览器扩展协议升级至 v25（manifest 1.4.5）。",
-    "sha256":  "E20946C60381E2692C3927F5D43C6BA69AE3B359E3134A33F8BD835438150645",
+    "version":  "2.4.0",
+    "publishedAt":  "2026-11-28 14:44",
+    "notes":  "# AI 圆桌 v2.4.0 更新公告\n\n- **一键创建并启动「AI圆桌」专用纯净 Chrome 资料**：在浏览器桥接设置面板及左侧「网页桥接」栏新增「一键创建并打开「AI圆桌」专用浏览器」入口，自动创建名为 `AI圆桌` 的独立纯净 Chrome 个人资料（仅加载本程序扩展、屏蔽日常扩展干扰以显著节省内存），并自动打开内置 AI 官网方便逐一登录。\n- **优化侧边栏 AI 席位点击与双击交互**：单聊模式下再次单击已选中的 AI 即可取消选中回到空迎宾页（分屏模式下点击已入列 AI 则移出分屏）；无论是否已选中，快速双击任意 AI 即可直接打开或将对应的浏览器标签页/桌面客户端窗口弹到前台。\n- **单聊一键「🪑 导入圆桌」**：单聊（含多窗分屏）顶部新增「🪑 导入圆桌」按钮，可一键将当前页面的所有 AI 自动带入圆桌入座，同时把各 AI 已有的单聊对话记录与云端会话绑定一并带入圆桌作为后续讨论上下文（尚无记录时也支持直接带入入座）。",
+    "sha256":  "025643F5F67F3DD711280CD342E8027B34591D32E7E58A514027E9048568EE95",
     "downloadUrls":  [
-                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.4/AIYuanZhuo-update.zip"
+                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.0/AIYuanZhuo-update.zip"
                      ],
-    "fullSha256":  "CD02179EDD0C265550350D84C8526D4AE512E68B442EA4EE90AAE50AD6050771",
+    "fullSha256":  "769998EF2361296930CEB856D0711B8ED68DA0E246BC99D1F4D25A6A121BBA4A",
     "fullDownloadUrls":  [
-                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.3.4/AIYuanZhuo-full.zip"
+                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.0/AIYuanZhuo-full.zip"
                          ]
 }
