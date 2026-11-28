@@ -1,13 +1,13 @@
 {
-    "version":  "2.4.4",
-    "publishedAt":  "2026-11-28 15:58",
-    "notes":  "# AI 圆桌 v2.4.4 更新公告\n\n- 修复分屏边框拖动后的比例保存。\n- 网页 AI 分屏卡片新增历史对话菜单，支持新建会话、刷新列表和切换历史。\n- 调整「导入圆桌」按钮文字显示。",
-    "sha256":  "A9CBDFF53FF216FD866A0C70D9CD1C05F4FB5B4AB2468FDC16E39186EC84959D",
+    "version":  "2.4.5",
+    "publishedAt":  "2026-11-28 16:40",
+    "notes":  "# AI 圆桌 v2.4.5 更新公告\n\n- 修复多窗重新排版时卡片可能叠在一起，导致一侧显示空白的问题。",
+    "sha256":  "0B67FE62B5EDD0296D27D0704FA7384CDE6524EE1067147A8C4CCEC26147E101",
     "downloadUrls":  [
-                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.4/AIYuanZhuo-update.zip"
+                         "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.5/AIYuanZhuo-update.zip"
                      ],
-    "fullSha256":  "1B2D9B88867718D55D058B09658619759600E272FB9A69C435A084A0F1FFCF7D",
+    "fullSha256":  "6779E753EAEC8B72E1A17FD905EE8FDD97592FEA77F65209C4B58CDCA872369B",
     "fullDownloadUrls":  [
-                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.4/AIYuanZhuo-full.zip"
+                             "https://github.com/theErwin/ai-yuanzhuo-updates/releases/download/v2.4.5/AIYuanZhuo-full.zip"
                          ]
 }
